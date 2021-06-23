@@ -7,11 +7,11 @@ from discord.ext import commands
 
 from main import client
 
-reddit = praw.Reddit(client_id='azi-r9MJtVzQ9w',
-                     client_secret='8PwlZBUEPIPJHjiFOXkx6MBO0ZIHew',
-                     username='AiO-Discord',
-                     password='AiObotDiscord.py@i1',
-                     user_agent='aiobot')
+reddit = praw.Reddit(client_id='x',
+                     client_secret='x',
+                     username='x',
+                     password='x',
+                     user_agent='x')
 
 
 def getMeme():
