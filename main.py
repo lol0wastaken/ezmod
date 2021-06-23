@@ -5,11 +5,11 @@ import discord
 from discord.ext import commands, tasks
 from pretty_help import PrettyHelp
 
-DB_NAME = "doditlfx"
-DB_USER = "doditlfx"
-DB_PASS = "UDG1hwTmm1j6Elqg8FaauWA6R4uYiXHq"
-DB_HOST = "kandula.db.elephantsql.com"
-DB_PORT = "5432"
+DB_NAME = "x"
+DB_USER = "x"
+DB_PASS = "x"
+DB_HOST = "x"
+DB_PORT = "x"
 
 conn = psycopg2.connect(database=DB_NAME, user=DB_USER,
                         password=DB_PASS, host=DB_HOST, port=DB_PORT)
@@ -90,4 +90,4 @@ async def on_command_error(ctx, error):
         await ctx.send("You dont have all the required Permissions :angry:")
 
 
-client.run('Nzg2NDM5NzAwNDAyNTM2NDQ4.X9GbCw.SoWHrawLjH5kncrgN3BNJfVQJKI')
+client.run('x')
